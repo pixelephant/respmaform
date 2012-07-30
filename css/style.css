@@ -690,6 +690,89 @@ hgroup h2{
     position: relative;
   }
 
+
+
+#data{
+  width: 90%;
+  padding: 0 5%;
+  text-align: center;
+}
+
+#data b{
+  font-family: 'osb';
+  font-size: 1.2em;
+}
+
+#project{
+  margin-bottom: 80px;
+}
+
+#project .text{
+  width: 90%;
+  padding: 0 5%;
+  text-align: center;
+  margin: 80px auto;
+  position: relative;
+  max-width: 480px;
+}
+
+#project h3{
+  font-family: 'oscb';
+}
+
+#project img{
+  max-width: 100%;
+}
+
+#project figure{
+  margin: 80px 0;
+}
+
+#project figure p{  
+  width: 90%;
+  margin: 10px auto;
+  padding: 0 5%;
+  text-align: center;
+  max-width: 480px;
+}
+
+#portfolio{
+  overflow: hidden;
+}
+
+#portfolio a{
+  display: block;
+  text-decoration: none;
+  color:#000;
+  padding-bottom: 80px;
+}
+
+#portfolio a:hover,#portfolio a:focus{
+  background: white;
+}
+
+#portfolio .element{
+  margin: 80px 0;
+}
+
+#portfolio .element p,#portfolio .element h3{
+  width: 90%;
+  padding: 0 5%;
+  text-align: center;
+  position: relative;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+#portfolio .element h3{
+  font-family: 'oscb';
+  text-transform: uppercase;
+}
+
+#portfolio .element img{
+  margin-top: 10px;
+}
+
 footer{
   width:100%;
   background:#000;
