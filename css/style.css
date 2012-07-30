@@ -430,12 +430,18 @@ nav li{
     width:30%;
     float:left;
     text-align: center;
-    padding:2% 0;
+    padding:1% 0;
   }
 
-  nav li:hover a,nav li:focus a{
+  nav li a:hover,nav li a:focus,nav li a.active{
     color:#ba282e;
   }
+
+  nav li a:active{
+    position: relative;
+    top: 1px;
+  }
+
 
 nav li a{
   text-decoration: none;
@@ -443,10 +449,13 @@ nav li a{
   display:block;
   text-transform: uppercase;
   border-right: 1px solid #aaa;
+  padding:1% 0;
 }
 
 #language a{
   border: none;
+  background: url(http://placekitten.com/32/32) no-repeat center center;
+  text-indent: -9999em;
 }
 
 #language{
@@ -744,7 +753,6 @@ hgroup h2{
   display: block;
   text-decoration: none;
   color:#000;
-  padding-bottom: 80px;
 }
 
 #portfolio a:hover,#portfolio a:focus{
@@ -767,6 +775,8 @@ hgroup h2{
 #portfolio .element h3{
   font-family: 'oscb';
   text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 10px;
 }
 
 #portfolio .element img{
@@ -793,16 +803,38 @@ footer{
  
   /* Landscape phone to portrait tablet */
   @media (max-width: 767px) {
-    
+    nav li{
+    padding:3% 0 !important;
+   }
   }
  
-  /* Portrait tablet to landscape and desktop */
-  @media (min-width: 768px) and (max-width: 979px) {
+
+
+  /*KB tablet*/
+  @media (min-width: 481px) and (max-width: 979px) {
+
+    #portfolio .element{
+      float:left;
+      width:45%;
+      margin-right: 10%;
+    }
+
+    #portfolio .element:nth-child(even){
+      margin-right:0;
+    }
 
   }
 
   @media (min-width: 980px){
-     
+     #portfolio .element{
+      float:left;
+      width:30%;
+      margin-right: 5%;
+    }
+
+    #portfolio .element:nth-child(3n){
+      margin-right:0;
+    }
   }
 
    /* NOT mobile */
