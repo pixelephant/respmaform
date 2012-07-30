@@ -38,9 +38,9 @@
       <a id="logo" href="/"><img src="img/uj_logo.png" alt=""></a>
     <nav>
       <ul>
-        <li><a href="/method">Method</a></li>
-        <li><a href="/works">Works</a></li>
-        <li><a href="/hire">Hire us!</a></li>
+        <li><a href="method.html">Method</a></li>
+        <li><a href="portfolio.html">Works</a></li>
+        <li><a href="hireus.html">Hire us!</a></li>
         <li id="language"><a href="#">Hu</a></li>
     </ul>
     </nav>
@@ -52,8 +52,8 @@
     </hgroup>
     <section id="form">
       <div class="clearfix">
-        <a class="active" href="#">Offer</a>
-        <a href="#">Contact</a>
+        <a class="active" href="#" data-type="offer">Offer</a>
+        <a href="#" data-type="contact">Contact</a>
       </div>
       <form action="/" id="offer-form" class="formy" validate>
         <fieldset>
@@ -64,7 +64,7 @@
           <label for="offer-email">Your email address</label>
           <input type="email" name="offer-email" id="offer-email" required>
         </fieldset>
-        <fieldset>
+        <fieldset id="budget-field">
           <label for="offer-budget">Budget</label>
           <select name="offer-budget" id="budget">
             <option value="10000&euro;">~ 10 000 &euro;</option>
@@ -74,7 +74,7 @@
           </select>
         </fieldset>
         <fieldset>
-          <label for="offer-description">Description of the work</label>
+          <label id="description-label" for="offer-description">Description of the work</label>
           <textarea name="offer-description" id="offer-description" cols="30" rows="10" required></textarea>
         </fieldset>
         <input type="submit" value="Send">
