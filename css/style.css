@@ -469,6 +469,16 @@ nav li a{
   background: url(../img/hu.png) no-repeat center center;
   background-size: 20px 20px;
   text-indent: -9999em;
+  opacity:0.8;
+    -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
+       -o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-in-out
+          ;  /* Firefox 16+ */
+}
+
+#language a:hover,#language a:focus{
+  opacity: 1;
 }
 
 #language{
@@ -856,6 +866,8 @@ hgroup h2{
   top:0;
   z-index: -1;
   opacity: 0;
+  margin: 0 auto; 
+  max-width: 1400px;
 }
 
 .no-touch #portfolio-nav.fixed{
