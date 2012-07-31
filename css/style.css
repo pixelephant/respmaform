@@ -297,7 +297,7 @@ h3{
   font-size: 1.2em;
 }
 
-p{
+p,footer li a{
   font-size: 1em;
 }
 
@@ -330,7 +330,7 @@ label,.formy input[type="email"],.formy input[type="text"],.formy textarea,#form
   font-size: 1.7em;
 }
 
-  p{
+  p,footer li a{
     font-size: 1.2em;
   }
 
@@ -364,7 +364,7 @@ label,.formy input[type="email"],.formy input[type="text"],.formy textarea,#form
   font-size: 2em;
 }
 
-  p{
+  p,footer li a{
     font-size: 1.44em;
   }
 
@@ -903,11 +903,48 @@ hgroup h2{
 }
 
 footer{
-  width:100%;
+  width:90%;
+  padding: 100px 5% 20px 5%;
   background:#000;
-  min-height: 200px;
+  overflow: hidden;
 }
 
+footer p{
+  margin:0 auto;
+  width: 90%;
+  padding:5%;
+  max-width: 480px;
+  text-align: center;
+  color: #fff;
+}
+
+footer p a{
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer p span{
+  display: block;
+}
+
+footer ul{
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+}
+
+footer li{
+  padding:2%;
+  width: 96%;
+  border-bottom: 1px dashed #fff;
+  text-align: center;
+}
+
+footer ul a{
+  color: #fff;
+  text-decoration: none;
+
+}
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
@@ -923,14 +960,23 @@ footer{
   /* Landscape phone to portrait tablet */
   @media (max-width: 767px) {
     nav li{
-    padding:3% 0 !important;
-   }
+      padding:3% 0 !important;
+    }
   }
  
 
 
   /*KB tablet*/
   @media (min-width: 701px) {
+
+    footer li{
+      float: left;
+      width:44%;
+    }
+
+    footer li:nth-child(odd){
+      margin-right: 2%;
+    }
 
     #portfolio .element{
       float:left;
