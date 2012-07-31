@@ -11,7 +11,20 @@
   <!-- Use the .htaccess and remove these lines to avoid edge case issues.
        More info: h5bp.com/i/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<?php 
 
+  $a = explode("/",$_SERVER['REQUEST_URI']);
+
+  $menu['index'] = '';
+  $menu['hireus'] = '';
+  $menu['method'] = '';
+  $menu['portfolio'] = '';
+
+  $item = explode(".",$a[count($a)-1]);
+
+  $menu[$item[0]] = "active";
+
+?>
   <title>Maform</title>
   <meta name="description" content="">
   <meta name="apple-mobile-web-app-capable" content="yes" />  
@@ -39,9 +52,9 @@
       <a id="logo" href="/"><img src="img/uj_logo.png" alt=""></a>
     <nav>
       <ul>
-        <li><a href="method.html">Method</a></li>
-        <li><a href="portfolio.html">Works</a></li>
-        <li><a href="hireus.html">Hire us!</a></li>
+        <li><a class="<?php echo $menu['method'] ?>" href="method.php">Method</a></li>
+        <li><a class="<?php echo $menu['portfolio'] ?>" href="portfolio.php">Works</a></li>
+        <li><a class="<?php echo $menu['hireus'] ?>" href="hireus.php">Hire us!</a></li>
         <li id="language"><a href="#">Hu</a></li>
     </ul>
     </nav>
@@ -54,56 +67,3 @@
       </ul>
     </div>
   </header>
-  <section id="content">
-    <hgroup>
-      <h1>Industrial designers &trade;</h1>
-      <h2>We are</h2>
-    </hgroup>
-    <section id="members">
-      <div class="member" id="peti">
-        <a href="#" class="cv">CV</a>
-        <img src="img/peti.png" alt="">
-        <h3>Péter Molnár</h3>
-        <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
-      </div>
-      <div class="member" id="geza">
-        <a href="#" class="cv">CV</a>
-        <img src="img/geza.png" alt="">
-        <h3>Géza Csire</h3>
-        <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
-    </div>
-    </section>
-
-    <div id="cta" class="clearfix">
-      <a href="">Our Method</a>
-      <a class="most" href=""><b>Works</b></a>
-      <a href="">Hire us</a>
-    </div>
-
-  </section>
-  <footer>
-
-  </footer>
-
-
-  <!-- JavaScript at the bottom for fast page loading -->
-
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-
-  <!-- scripts concatenated and minified via build script -->
-  <script src="js/main.js"></script>
-  <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-  <!-- end scripts -->
-
-  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
-       mathiasbynens.be/notes/async-analytics-snippet -->
-  <script>
-    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
-</body>
-</html>
