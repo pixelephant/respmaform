@@ -6,27 +6,27 @@
     </hgroup>
     <section id="steps">
       <div class="step">
-        <img src="img/mf_discuss.png" alt="">
+        <img src="img/discuss.png" alt="">
         <h3>Discuss</h3>
         <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
       </div>
       <div class="step">
-        <img src="img/mf_research.png" alt="">
+        <img src="img/research.png" alt="">
         <h3>Research</h3>
         <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
     </div>
     <div class="step">
-        <img src="img/mf_create.png" alt="">
-        <h3>Create</h3>
+        <img src="img/design.png" alt="">
+        <h3>Design</h3>
         <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
     </div>
     <div class="step">
-        <img src="img/mf_implement.png" alt="">
+        <img src="img/implement.png" alt="">
         <h3>Implement</h3>
         <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
     </div>
     <div class="step">
-        <img src="img/mf_present.png" alt="">
+        <img src="img/present.png" alt="">
         <h3>Present</h3>
         <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
     </div>

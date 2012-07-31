@@ -979,17 +979,17 @@ footer li a img{
   opacity: 0.8;
 }
 
-footer ul a{
+footer a{
   color: #fff;
   text-decoration: none;
   opacity:0.6;
-      -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
-     -moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
-       -o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
-          transition: all 0.3s ease-in-out;  /* Firefox 16+ */
+  -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
+  -moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
+  -o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
+  transition: all 0.3s ease-in-out;  /* Firefox 16+ */
 }
 
-footer li a:hover,footer li a:focus{
+footer a:hover,footer a:focus{
   opacity: 1;
 }
 
