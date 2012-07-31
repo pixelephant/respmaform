@@ -1,19 +1,4 @@
 <?php include("_header.php") ?>
-<body>
-  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
-       chromium.org/developers/how-tos/chrome-frame-getting-started -->
-  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-  <header>
-      <a id="logo" href="/"><img src="img/uj_logo.png" alt=""></a>
-    <nav>
-      <ul>
-        <li><a href="method.html">Method</a></li>
-        <li><a href="portfolio.html">Works</a></li>
-        <li><a href="hireus.html">Hire us!</a></li>
-        <li id="language"><a href="#">Hu</a></li>
-    </ul>
-    </nav>
-  </header>
   <section id="content">
     <hgroup>
       <h1>Our method</h1>
