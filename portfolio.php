@@ -7,7 +7,7 @@
 
     <section id="portfolio">
       <div class="element">
-        <a href="portfolio_show.html">
+        <a href="portfolio_show.php">
           <img src="http://www.placekitten.com/600/600" alt="">
           <div>
             <h3>Portfolio element</h3>
@@ -17,7 +17,7 @@
         </a>
       </div>
       <div class="element">
-        <a href="portfolio_show.html">
+        <a href="portfolio_show.php">
           <img src="http://www.placekitten.com/600/600" alt="">
           <div>
             <h3>Portfolio element</h3>
@@ -27,7 +27,7 @@
         </a>
       </div>
       <div class="element">
-        <a href="portfolio_show.html">
+        <a href="portfolio_show.php">
           <img src="http://www.placekitten.com/600/600" alt="">
           <div>
             <h3>Portfolio element</h3>
