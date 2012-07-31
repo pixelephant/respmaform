@@ -28,4 +28,22 @@ $(document).ready(function(){
 		return false;
 	});
 
+	var topos = $("hgroup").eq(0).offset().top + 100;
+
+	  $(window).scroll(function (event) {
+	    var y = $(window).scrollTop();
+
+	    if (y >= topos) {
+	      $('#portfolio-nav').addClass('fixed');
+	    } else {
+	      $('#portfolio-nav').removeClass('fixed');
+	    }
+	  });
+
+	  $('.all').click(function(){
+        $('html, body').animate({scrollTop:0}, 'slow');
+        return false;
+    });
+
+
 });

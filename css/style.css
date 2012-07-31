@@ -293,6 +293,10 @@ h3{
  font-size: 2em;
 }
 
+#portfolio .element h3{
+  font-size: 1.2em;
+}
+
 p{
   font-size: 1em;
 }
@@ -321,6 +325,10 @@ label,.formy input[type="email"],.formy input[type="text"],.formy textarea,#form
   h3{
    font-size: 2.4em;
   }
+
+  #portfolio .element h3{
+  font-size: 1.7em;
+}
 
   p{
     font-size: 1.2em;
@@ -351,6 +359,10 @@ label,.formy input[type="email"],.formy input[type="text"],.formy textarea,#form
   h3{
    font-size: 2.88em;
   }
+
+  #portfolio .element h3{
+  font-size: 2em;
+}
 
   p{
     font-size: 1.44em;
@@ -454,7 +466,8 @@ nav li a{
 
 #language a{
   border: none;
-  background: url(http://placekitten.com/32/32) no-repeat center center;
+  background: url(../img/hu.png) no-repeat center center;
+  background-size: 20px 20px;
   text-indent: -9999em;
 }
 
@@ -463,31 +476,35 @@ nav li a{
 }
 
 hgroup{
-  width: 90%;
+  width: 100%;
   text-align: center;
-  background:red;
   margin:0;
+  position: relative;
+  z-index:3;
 }
 
 hgroup {
   position: relative;
   background: url(../img/pattern-red.jpg) repeat #ba282e;
-  padding:4% 5%;
   color:white;
+  overflow: hidden;
 }
 
 hgroup h1,hgroup h2{
   margin:0;
+  padding:0 5%;
 }
 
 hgroup h1{
   text-transform: uppercase;
   font-family: 'oscb';
+  margin-top: 4%;
 }
 
 hgroup h2{
   text-transform: lowercase;
   font-family: 'osl';
+  margin-bottom: 4%;
 }
 
 #members,#steps,#form{
@@ -569,18 +586,29 @@ hgroup h2{
 }
 
 #cta a{
-  width:30%;
+  width:20%;
+  padding-top: 30px;
+  margin: 0 5%;
   float:left;
   text-decoration: none;
   color:#000;
   text-align: center;
-  padding-top: 30px;
+  border-bottom:1px dashed;
+  opacity: 0.8;
+}
+
+#cta a:hover,#cta a:focus{
+  border-bottom: 1px solid;
+  opacity: 1;
 }
 
 .most{
   width:40% !important;
   color:#fff !important;
-  padding-top: 0 !important;
+  padding: 0 !important;
+  border:none !important;
+  margin: 0 !important;
+  opacity: 1 !important;
 }
 
 .most b{
@@ -595,6 +623,10 @@ hgroup h2{
   font-family: 'oscb';
   text-transform: uppercase;
   border: 10px solid #e4e4e4;
+}
+
+.most:hover b,.most:focus b{
+  background: #ce2e3a;
 }
 
 #form{
@@ -687,11 +719,11 @@ hgroup h2{
   font-family: 'oscb';
   background:#ba282e;
   color:#fff;
-  opacity: 0.8;
+  text-transform: uppercase;
 }
 
 .formy input[type="submit"]:hover,.formy input[type="submit"]:focus{
-    opacity:1;
+    background: #ce2e3a;
   }
 
 .formy input[type="submit"]:active{
@@ -703,7 +735,7 @@ hgroup h2{
 
 #data{
   width: 90%;
-  padding: 0 5%;
+  padding: 0 20px;
   text-align: center;
 }
 
@@ -747,29 +779,59 @@ hgroup h2{
 
 #portfolio{
   overflow: hidden;
+  position: relative;
+  padding: 5%;
 }
 
 #portfolio a{
   display: block;
   text-decoration: none;
-  color:#000;
+  color:#fff;
 }
 
-#portfolio a:hover,#portfolio a:focus{
-  background: white;
+.no-touch #portfolio .element div{
+  bottom: -100%;
+   -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
+       -o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-in-out
+          ;  /* Firefox 16+ */
+}
+
+.no-touch #portfolio .element a:hover div,.no-touch #portfolio .element a:focus{
+  bottom:0;
 }
 
 #portfolio .element{
-  margin: 80px 0;
+  margin:5% 5%;
+  position: relative;
+  overflow:hidden;
+}
+
+#portfolio .element div{
+  position: absolute;
+  bottom:0;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.8);  
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000); 
+  zoom: 1;
+  width:100%;
+  text-align: center;
+  padding:5% 0;
+}
 }
 
 #portfolio .element p,#portfolio .element h3{
   width: 90%;
-  padding: 0 5%;
   text-align: center;
   position: relative;
   max-width: 480px;
   margin: 0 auto;
+  color:#fff !important; 
+}
+
+#portfolio .element p{
+  margin: 0;
 }
 
 #portfolio .element h3{
@@ -777,10 +839,55 @@ hgroup h2{
   text-transform: uppercase;
   line-height: 1;
   margin-bottom: 10px;
+  margin-top: 0;
+  padding:0 5%;
+  width: 90%;
 }
 
-#portfolio .element img{
-  margin-top: 10px;
+#portfolio-nav{
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.8);  
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000);
+  zoom: 1;
+  overflow: hidden;
+  width:100%;
+  margin:0;
+  position: fixed;
+  top:0;
+  z-index: -1;
+  opacity: 0;
+}
+
+.no-touch #portfolio-nav.fixed{
+  opacity: 1;
+  z-index:2;
+}
+
+#portfolio-nav a{
+  color: #fff;
+  text-decoration: none;
+  width:31.33333%;
+  float: left;
+  padding:1%;
+  margin: 0;
+}
+
+#portfolio-nav a:hover,#portfolio-nav a:focus{
+  text-decoration: underline;
+}
+
+.prev{
+  text-align: left;
+}
+
+.all{
+  text-align: center;
+  font-family: 'oscb';
+  margin: 0;
+}
+
+.next{
+  text-align: right;
 }
 
 footer{
@@ -811,30 +918,36 @@ footer{
 
 
   /*KB tablet*/
-  @media (min-width: 481px) and (max-width: 979px) {
+  @media (min-width: 701px) {
 
     #portfolio .element{
       float:left;
-      width:45%;
-      margin-right: 10%;
+      width:47.5%;
+      margin-right:0;
+      margin-left:0;
+      margin-bottom: 5%;
+      margin-top: 0;
     }
 
-    #portfolio .element:nth-child(even){
-      margin-right:0;
+    #portfolio .element:nth-child(odd){
+      margin-right: 5%;
+    }
+
+    .most b{
+      border-radius: 150px;
+      width:150px;
+      height:150px;
+      line-height: 150px;
+    }
+
+    #cta{
+      margin-bottom: -75px; 
     }
 
   }
 
   @media (min-width: 980px){
-     #portfolio .element{
-      float:left;
-      width:30%;
-      margin-right: 5%;
-    }
-
-    #portfolio .element:nth-child(3n){
-      margin-right:0;
-    }
+     
   }
 
    /* NOT mobile */
