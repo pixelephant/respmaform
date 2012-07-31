@@ -1,5 +1,16 @@
-  <footer>
-
+<script src="js/retina.js"></script>
+<footer>
+   <p>Contact us at <a href="mailto:info@maform.hu">info@maform.hu</a> or at <a href="tel:+36307472416">+36-30-747-2416</a></p>
+    <ul>
+      <li><a href="http://www.facebook.com/maformdesign"><img src="img/facebook.png" alt="facebook"> Like us on Facebook</a></li>
+      <li><a href="http://www.be.net/maform"><img src="img/behance.png" alt="behance"> Check us out on Behance</a></li>
+      <li><a href="http://www.maform.tumblr.com"><img src="img/tumblr.png" alt="tumblr"> Read from us on Tumblr</a></li>
+      <li><a href="http://www.vimeo.com/user5301012"><img src="img/vimeo.png" alt="vimeo"> Watch us on Vimeo</a></li>
+    </ul>
+    <p id="copy">
+      Webdesign by <a href="http://www.pixelephant.hu">Pixelephant Media</a>
+      <span>&copy; 2012 - Maform</span>
+    </p>
   </footer>
 
 

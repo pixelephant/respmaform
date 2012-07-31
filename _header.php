@@ -49,7 +49,7 @@
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <header>
-      <a id="logo" href="/"><img src="img/uj_logo.png" alt=""></a>
+      <a id="logo" href="/"><img src="img/logo.png" alt="maform logó"></a>
     <nav>
       <ul>
         <li><a class="<?php echo $menu['method'] ?>" href="method.php">Method</a></li>

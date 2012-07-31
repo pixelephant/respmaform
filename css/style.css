@@ -401,6 +401,15 @@ header,footer,#content,body{
   background: url(../img/pattern.png) repeat #aaa;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+ header,footer,#content,body{
+  background: url(../img/pattern@2x.png) repeat #aaa;
+  -webkit-background-size: 150px 150px;  
+  -moz-background-size: 150px 150px;  
+  background-size: 150px 150px;  
+  }
+}
+
 body{
   /*box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.4);*/
 }
@@ -467,7 +476,9 @@ nav li a{
 #language a{
   border: none;
   background: url(../img/hu.png) no-repeat center center;
-  background-size: 20px 20px;
+  -webkit-background-size: 20px 20px;  
+  -moz-background-size: 20px 20px;  
+  background-size: 20px 20px;  
   text-indent: -9999em;
   opacity:0.8;
     -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
@@ -475,6 +486,15 @@ nav li a{
        -o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
           transition: all 0.3s ease-in-out
           ;  /* Firefox 16+ */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+ #language a{
+  background: url(../img/hu@2x.png) no-repeat center center;
+  -webkit-background-size: 20px 20px;  
+  -moz-background-size: 20px 20px;  
+  background-size: 20px 20px;  
+  }
 }
 
 #language a:hover,#language a:focus{
@@ -495,9 +515,18 @@ hgroup{
 
 hgroup {
   position: relative;
-  background: url(../img/pattern-red.jpg) repeat #ba282e;
+  background: url(../img/pattern-red.png) repeat #ba282e;
   color:white;
   overflow: hidden;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+ hgroup{
+  background: url(../img/pattern-red@2x.png) repeat #ba282e;
+  -webkit-background-size: 150px 150px;  
+  -moz-background-size: 150px 150px;  
+  background-size: 150px 150px;  
+  }
 }
 
 hgroup h1,hgroup h2{
@@ -904,7 +933,7 @@ hgroup h2{
 
 footer{
   width:90%;
-  padding: 100px 5% 20px 5%;
+  padding: 100px 5% 0 5%;
   background:#000;
   overflow: hidden;
 }
@@ -913,14 +942,15 @@ footer p{
   margin:0 auto;
   width: 90%;
   padding:5%;
-  max-width: 480px;
   text-align: center;
   color: #fff;
 }
 
 footer p a{
   color: #fff;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px dashed #fff;
+  padding-bottom: 2px;
 }
 
 footer p span{
@@ -938,12 +968,29 @@ footer li{
   width: 96%;
   border-bottom: 1px dashed #fff;
   text-align: center;
+  overflow: hidden;
+}
+
+footer li a img{
+  vertical-align: middle;
+  margin-right: 20px;
+  float:left;
+  position: relative;
+  opacity: 0.8;
 }
 
 footer ul a{
   color: #fff;
   text-decoration: none;
+  opacity:0.6;
+      -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
+       -o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-in-out;  /* Firefox 16+ */
+}
 
+footer li a:hover,footer li a:focus{
+  opacity: 1;
 }
 
 /* ==|== media queries ======================================================
@@ -974,8 +1021,12 @@ footer ul a{
       width:44%;
     }
 
+    footer li a img{
+      top:3px;
+    }
+
     footer li:nth-child(odd){
-      margin-right: 2%;
+      margin-right: 4%;
     }
 
     #portfolio .element{
