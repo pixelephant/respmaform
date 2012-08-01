@@ -1,4 +1,12 @@
 <?php include("_header.php") ?>
+<div class="flexslider carousel">
+      <ul class="slides">        
+        <li><img src="img/slider/slider-face.jpg" alt=""></li>
+        <li><img src="img/slider/slider-m8.jpg" alt=""></li>
+        <li><img src="img/slider/slider-pa.jpg" alt=""></li>
+        <li><img src="img/slider/slider-paq.jpg" alt=""></li>
+      </ul>
+    </div>
   <section id="content">
     <hgroup>
       <h1>Industrial designers &trade;</h1>

@@ -59,12 +59,4 @@
         <li id="language"><a href="#">Hu</a></li>
     </ul>
     </nav>
-    <div class="flexslider carousel">
-      <ul class="slides">        
-        <li><img src="img/slider/slider-face.jpg" alt=""></li>
-        <li><img src="img/slider/slider-m8.jpg" alt=""></li>
-        <li><img src="img/slider/slider-pa.jpg" alt=""></li>
-        <li><img src="img/slider/slider-paq.jpg" alt=""></li>
-      </ul>
-    </div>
   </header>
