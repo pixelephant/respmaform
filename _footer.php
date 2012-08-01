@@ -21,6 +21,7 @@
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
   <!-- scripts concatenated and minified via build script -->
+  <!--[if lt IE 9]>  <script src="js/ie.js"></script> <![endif]-->
   <script src="js/main.js"></script>
   <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
   <!-- end scripts -->
