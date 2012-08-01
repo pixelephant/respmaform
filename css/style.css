@@ -284,6 +284,14 @@ COLORS*/
 }
 */
 
+
+input[type="text"], input[type="email"], input[type="search"], input[type="password"], textarea {
+  -webkit-appearance: caret;
+  -moz-appearance: caret; /* mobile firefox too! */
+  border-radius: 0 !important;
+}
+
+
 /* FONT RESIZE */
 
 hgroup h1{
@@ -323,9 +331,13 @@ label,.formy input[type="email"],.formy input[type="text"],.formy textarea,#form
     font-size: 2.4em;
   }
 
-  hgroup h2,.formy input[type="submit"]{
+  hgroup h2{
     font-size: 1.8em;
   }
+
+.formy input[type="submit"]{
+    font-size: 1.6em;
+}
 
   h3{
    font-size: 2.4em;
@@ -357,8 +369,12 @@ label,.formy input[type="email"],.formy input[type="text"],.formy textarea,#form
     font-size: 2.88em;
   }
 
-  hgroup h2,.formy input[type="submit"]{
+  hgroup h2{
     font-size: 2.16em;
+  }
+
+.formy input[type="submit"]{
+    font-size: 1.96em;
   }
 
   h3{
@@ -759,6 +775,7 @@ hgroup h2{
   font-family: 'osli';
   padding:1%;
   text-align: center;
+  border-radius: none;
 }
 
 .formy textarea{
@@ -776,6 +793,7 @@ hgroup h2{
   background:#ba282e;
   color:#fff;
   text-transform: uppercase;
+  border-radius: 0 !important;
 }
 
 .formy input[type="submit"]:hover,.formy input[type="submit"]:focus{
@@ -1104,7 +1122,7 @@ footer a:hover,footer a:focus{
     }
 
     .cv{
-        right:20%;
+        right:17%;
       }
   }
 
