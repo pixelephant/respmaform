@@ -48,7 +48,7 @@
       </div>
     </section>
 
-    <div id="cta" class="clearfix">
+    <div id="cta" class="">
       <a href="">Previous</a>
       <a class="most" href=""><b>Hire us</b></a>
       <a href="">Next</a>

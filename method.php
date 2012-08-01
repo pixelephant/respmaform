@@ -32,7 +32,7 @@
     </div>
     </section>
 
-    <div id="cta" class="clearfix">
+    <div id="cta" class="">
       <a href="">About</a>
       <a class="most" href=""><b>Works</b></a>
       <a href="">Hire us</a>

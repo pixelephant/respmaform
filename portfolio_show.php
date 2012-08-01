@@ -49,7 +49,7 @@
 
     </section>
 
-    <div id="cta" class="clearfix">
+    <div id="cta" class="">
       <a href="">About</a>
       <a class="most" href=""><b>Hire us</b></a>
       <a href="">Works</a>

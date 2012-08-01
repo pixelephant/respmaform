@@ -3,6 +3,7 @@
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="hu"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="hu"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="hu"> <![endif]-->
+<!--[if lte IE 9]>    <html class="no-js lte-ie9" lang="hu"> <![endif]-->
 <!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="hu"> <!--<![endif]-->
 <head>

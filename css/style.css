@@ -278,6 +278,11 @@ COLORS*/
    Author:
    ========================================================================== */
 
+.lte-ie9 body{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 
 /* FONT RESIZE */
 
@@ -444,7 +449,11 @@ nav{
 
 nav ul{
   overflow: hidden;
-  background:rgba(255,255,255,0.6);
+  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.6);  /* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF,endColorstr=#99FFFFFF); /* IE6–IE9 */
+  zoom: 1;
+
 }
 
 nav li{
@@ -478,7 +487,14 @@ nav li a{
   background: url(../img/hu.png) no-repeat center center;
   -webkit-background-size: 20px 20px;  
   -moz-background-size: 20px 20px;  
-  background-size: 20px 20px;  
+  background-size: 20px 20px;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='../img/hu.png',
+sizingMethod='scale');
+
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='../img/hu.png',
+sizingMethod='scale')";  
   text-indent: -9999em;
   opacity:0.8;
     -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
@@ -622,6 +638,7 @@ hgroup h2{
   width:90%;
   padding: 0 5%;
   margin-bottom: -50px;
+  overflow: hidden;
 }
 
 #cta a{
