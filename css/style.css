@@ -254,7 +254,16 @@ td { vertical-align: top; }
 }
 
 
+@font-face {
+    font-family: 'osi';
+    src: url('../fonts/opensans-italic-webfont.eot');
+    src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-italic-webfont.woff') format('woff'),
+         url('../fonts/opensans-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 @font-face {
     font-family: 'osli';
@@ -416,6 +425,11 @@ html{
   color:#000;
 }
 
+strong{
+  font-family: 'osi';
+  font-weight: normal;
+}
+
 header,footer,#content,body{
   max-width: 1400px;
   margin: 0 auto;
@@ -548,6 +562,20 @@ hgroup h2 span{
   opacity: 0.6;
 }
 
+hgroup a{
+  /*
+  -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
+  /*-moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
+  /*-o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
+  /*transition: all 0.3s ease-in-out;  /* Firefox 16+ */ 
+  color:white;
+  text-decoration: underline;
+}
+/*
+.no-touch hgroup a:hover,hgroup a:focus{
+  opacity: 1 !important;
+}
+*/
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
  hgroup{
   background: url(../img/pattern-red@2x.png) repeat #ba282e;
@@ -654,9 +682,10 @@ hgroup h2{
 }
 
 #cta a{
-  width:20%;
+  position: relative;
+  z-index: 1;
+  width:30%;
   padding-top: 30px;
-  margin: 0 5%;
   float:left;
   text-decoration: none;
   color:#000;
@@ -680,6 +709,7 @@ hgroup h2{
   border:none !important;
   margin: 0 !important;
   opacity: 1 !important;
+  z-index: 2 !important;
 }
 
 .most b{
@@ -840,6 +870,21 @@ hgroup h2{
   margin: 80px auto;
   position: relative;
   max-width: 480px;
+}
+
+#project .text a,#project figure p a{
+  color: #000;
+  text-decoration: underline;
+  opacity:0.8;
+  -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
+       -o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-in-out
+          ;  /* Firefox 16+ */
+}
+
+.no-touch .text a:hover,.no-touch #project figure p a:hover,#project .text a:focus,#project figure p a:focus{
+  opacity:1;
 }
 
 #project h3{
@@ -1083,7 +1128,11 @@ footer a,#portfolio-nav a{
 
   /*KB tablet*/
   @media (min-width: 701px) {
-
+    #cta a{
+      width:20%;
+  padding-top: 30px;
+  margin: 0 5%;
+    }
     footer li{
       float: left;
       width:44%;
