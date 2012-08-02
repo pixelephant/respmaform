@@ -562,20 +562,11 @@ hgroup h2 span{
   opacity: 0.6;
 }
 
-hgroup a{
-  /*
-  -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
-  /*-moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
-  /*-o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
-  /*transition: all 0.3s ease-in-out;  /* Firefox 16+ */ 
+hgroup h2 span a{
   color:white;
   text-decoration: underline;
 }
-/*
-.no-touch hgroup a:hover,hgroup a:focus{
-  opacity: 1 !important;
-}
-*/
+
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
  hgroup{
   background: url(../img/pattern-red@2x.png) repeat #ba282e;
@@ -870,6 +861,10 @@ hgroup h2{
   margin: 80px auto;
   position: relative;
   max-width: 480px;
+}
+
+#project .text h3{
+  text-transform: uppercase;
 }
 
 #project .text a,#project figure p a{

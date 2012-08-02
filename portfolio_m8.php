@@ -10,7 +10,7 @@
       <a class="next" href="#">Next <span aria-hidden="true">&raquo;</span></a>
     </p>
     <p id="data">
-      Started in <b>2011</b> and took <b>2</b> months to finish.
+      Started in <b>2011</b> and took <b>6</b> months to finish.
     </p>
 
     <section id="project">
