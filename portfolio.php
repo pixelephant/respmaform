@@ -47,11 +47,11 @@
         </a>
       </div>
       <div class="element">
-        <a href="portfolio_show.php">
-          <img src="http://www.placekitten.com/600/600" alt="">
+        <a href="portfolio_de.php">
+          <img src="img/portfolio/de/de.jpg" alt="">
           <div>
-            <h3>Masni</h3>
-            <p>Modular catering shelf system</p>
+            <h3>Duna Express</h3>
+            <p>Intermodal ship station for public water transportation</p>
             <p>&rarr;</p>
           </div>
         </a>
@@ -60,8 +60,8 @@
         <a href="portfolio_show.php">
           <img src="http://www.placekitten.com/600/600" alt="">
           <div>
-            <h3>Duna Express</h3>
-            <p>Intermodal ship station for public water transportation</p>
+            <h3>Masni</h3>
+            <p>Modular catering shelf system</p>
             <p>&rarr;</p>
           </div>
         </a>

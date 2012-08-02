@@ -51,12 +51,12 @@
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <header>
       <a id="logo" href="/"><img src="img/logo.png" alt="Maform logó"></a>
+      <span id="language"><a href="#">hu</a> / <a  class="active" href="#">en</a></span>
     <nav>
       <ul>
         <li><a class="<?php echo $menu['method'] ?>" href="method.php">Method</a></li>
         <li><a class="<?php echo $menu['portfolio'] ?>" href="portfolio.php">Works</a></li>
         <li><a class="<?php echo $menu['hireus'] ?>" href="hireus.php">Hire us!</a></li>
-        <li id="language"><a href="#">Hu</a></li>
     </ul>
     </nav>
   </header>
