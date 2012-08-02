@@ -26,7 +26,7 @@ $(document).ready(function(){
 	})
 
 	$("#offer-form").submit(function(){
-		$(this).find("input[type='submit']").css("background","green").attr("disabled","disabled").val("✓ Hamarosan jelentkezünk.");
+		$(this).find("input[type='submit']").css("background","green").attr("readonly","readonly").addClass("disabled").val("✓ Köszönjük.");
 		return false;
 	});
 

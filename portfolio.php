@@ -10,8 +10,8 @@
         <a href="portfolio_show.php">
           <img src="http://www.placekitten.com/600/600" alt="">
           <div>
-            <h3>Portfolio element</h3>
-            <p>Portfolio element description</p>
+            <h3>PAQ Chair</h3>
+            <p>the world's most simple bed chair</p>
             <p>&rarr;</p>
           </div>
         </a>
@@ -20,8 +20,8 @@
         <a href="portfolio_show.php">
           <img src="http://www.placekitten.com/600/600" alt="">
           <div>
-            <h3>Portfolio element</h3>
-            <p>Portfolio element description</p>
+            <h3>M8</h3>
+            <p>City minibus concept</p>
             <p>&rarr;</p>
           </div>
         </a>
@@ -30,8 +30,8 @@
         <a href="portfolio_show.php">
           <img src="http://www.placekitten.com/600/600" alt="">
           <div>
-            <h3>Portfolio element</h3>
-            <p>Portfolio element description</p>
+            <h3>RMG poweranalyzer</h3>
+            <p>Intelligent industrial power management and maintenance tool</p>
             <p>&rarr;</p>
           </div>
         </a>
@@ -40,8 +40,28 @@
         <a href="portfolio_show.php">
           <img src="http://www.placekitten.com/600/600" alt="">
           <div>
-            <h3>Portfolio element</h3>
-            <p>Portfolio element description</p>
+            <h3>RMG smartsocket</h3>
+            <p>Power management and maintenance tool for office and home users</p>
+            <p>&rarr;</p>
+          </div>
+        </a>
+      </div>
+      <div class="element">
+        <a href="portfolio_show.php">
+          <img src="http://www.placekitten.com/600/600" alt="">
+          <div>
+            <h3>Masni</h3>
+            <p>Modular catering shelf system</p>
+            <p>&rarr;</p>
+          </div>
+        </a>
+      </div>
+      <div class="element">
+        <a href="portfolio_show.php">
+          <img src="http://www.placekitten.com/600/600" alt="">
+          <div>
+            <h3>Duna Express</h3>
+            <p>Intermodal ship station for public water transportation</p>
             <p>&rarr;</p>
           </div>
         </a>

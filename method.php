@@ -8,27 +8,27 @@
       <div class="step">
         <img src="img/discuss.png" alt="">
         <h3>Discuss</h3>
-        <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
+        <p>We get to know You and the design problem to work out the goals together.</p>
       </div>
       <div class="step">
         <img src="img/research.png" alt="">
         <h3>Research</h3>
-        <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
+        <p>We observe, define, describe, analyze, and methodize the design problem, the encompassing systems and the related processes.</p>
     </div>
     <div class="step">
         <img src="img/design.png" alt="">
         <h3>Design</h3>
-        <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
+        <p>This is the part where we let our minds go. Where our intuition helps us to come up with useful and creative solutions.</p>
     </div>
     <div class="step">
         <img src="img/implement.png" alt="">
         <h3>Implement</h3>
-        <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
+        <p>Applying our ideas to a real-world functional and usable product. We keep it simple to save valuable resources.</p>
     </div>
     <div class="step">
         <img src="img/present.png" alt="">
         <h3>Present</h3>
-        <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
+        <p>Eye-popping renders and illustrations with style. This is how we communicate our designs.</p>
     </div>
     </section>
 

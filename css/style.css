@@ -479,11 +479,11 @@ nav li{
     padding:1% 0;
   }
 
-  nav li a:hover,nav li a:focus,nav li a.active{
+  .no-touch nav li a:hover,nav li a:focus,nav li a.active{
     color:#ba282e;
   }
 
-  nav li a:active{
+  .no-touch nav li a:active{
     position: relative;
     top: 1px;
   }
@@ -504,13 +504,6 @@ nav li a{
   -webkit-background-size: 20px 20px;  
   -moz-background-size: 20px 20px;  
   background-size: 20px 20px;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../img/hu.png',
-sizingMethod='scale');
-
--ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../img/hu.png',
-sizingMethod='scale')";  
   text-indent: -9999em;
   opacity:0.8;
     -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
@@ -550,6 +543,10 @@ hgroup {
   background: url(../img/pattern-red.png) repeat #ba282e;
   color:white;
   overflow: hidden;
+}
+
+hgroup h2 span{
+  display: block;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
@@ -788,12 +785,16 @@ hgroup h2{
   margin: 0;
   background:none;
   width:100%;
-  padding:1%;
+  padding:2% 1%;
   font-family: 'oscb';
   background:#ba282e;
-  color:#fff;
+  color:#fff !important;
   text-transform: uppercase;
   border-radius: 0 !important;
+}
+
+.formy input[type="submit"]:disabled,.formy input[type="submit"][disabled=disabled],.formy input[type="submit"].disabled{
+  color:#fff !important;
 }
 
 .formy input[type="submit"]:hover,.formy input[type="submit"]:focus{
@@ -1036,7 +1037,12 @@ footer a:hover,footer a:focus{
 
 /* Landscape phones and down */
   @media (max-width: 480px) {
-   
+   #form .clearfix a{
+  border-radius: 75px;
+  width:75px;
+  height:75px;
+  line-height: 75px;
+}
   }
  
   /* Landscape phone to portrait tablet */

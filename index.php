@@ -9,21 +9,21 @@
     </div>
   <section id="content">
     <hgroup>
-      <h1>Industrial designers &trade;</h1>
-      <h2>We are</h2>
+      <h1>Industrial design</h1>
+      <h2>is our life, our passion and our job</h2>
     </hgroup>
     <section id="members">
       <div class="member" id="peti">
         <a href="#" class="cv">CV</a>
         <img src="img/peti.png" alt="">
         <h3>Péter Molnár</h3>
-        <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
+        <p>Péter is an analytic designer who always looks at the big picture. He wants to approach perfection in all of his works.</p>
       </div>
       <div class="member" id="geza">
         <a href="#" class="cv">CV</a>
         <img src="img/geza.png" alt="">
         <h3>Géza Csire</h3>
-        <p>During a presonal meeting we get to know you and the design problem. We define the goals and other shit like budget and milestones.</p>
+        <p>Géza loves transformable, moving or collapsible objects. He is always trying to extend the boundaries.</p>
     </div>
     </section>
 
