@@ -7,7 +7,7 @@
 
     <section id="portfolio">
       <div class="element">
-        <a href="portfolio_show.php">
+        <a href="portfolio_paq.php">
           <img src="img/portfolio/paq/paq.jpg" alt="">
           <div>
             <h3>PAQ Chair</h3>
@@ -17,7 +17,7 @@
         </a>
       </div>
       <div class="element">
-        <a href="portfolio_show.php">
+        <a href="portfolio_m8.php">
           <img src="img/portfolio/m8/m8.jpg" alt="">
           <div>
             <h3>M8</h3>
@@ -27,7 +27,7 @@
         </a>
       </div>
       <div class="element">
-        <a href="portfolio_show.php">
+        <a href="portfolio_pa.php">
           <img src="img/portfolio/pa/pa.jpg" alt="">
           <div>
             <h3>RMG poweranalyzer</h3>
@@ -37,8 +37,8 @@
         </a>
       </div>
       <div class="element">
-        <a href="portfolio_show.php">
-          <img src="http://www.placekitten.com/600/600" alt="">
+        <a href="portfolio_ss.php">
+          <img src="img/portfolio/ss/ss.jpg" alt="">
           <div>
             <h3>RMG smartsocket</h3>
             <p>Power management and maintenance tool for office and home users</p>

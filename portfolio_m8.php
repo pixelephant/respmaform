@@ -50,12 +50,6 @@
         <img src="img/portfolio/m8/m8-08.jpg" alt="">
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
       </figure>
-      <figure>
-        <div>
-          <iframe src="http://player.vimeo.com/video/28350027" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-        </div>
-        <p>In action</p>
-      </figure>
     </section>
 
     <div id="cta" class="">
