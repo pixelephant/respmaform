@@ -8,7 +8,7 @@
     <section id="portfolio">
       <div class="element">
         <a href="portfolio_show.php">
-          <img src="http://www.placekitten.com/600/600" alt="">
+          <img src="img/portfolio/paq/paq.jpg" alt="">
           <div>
             <h3>PAQ Chair</h3>
             <p>the world's most simple bed chair</p>
@@ -18,7 +18,7 @@
       </div>
       <div class="element">
         <a href="portfolio_show.php">
-          <img src="http://www.placekitten.com/600/600" alt="">
+          <img src="img/portfolio/m8/m8.jpg" alt="">
           <div>
             <h3>M8</h3>
             <p>City minibus concept</p>
@@ -28,7 +28,7 @@
       </div>
       <div class="element">
         <a href="portfolio_show.php">
-          <img src="http://www.placekitten.com/600/600" alt="">
+          <img src="img/portfolio/pa/pa.jpg" alt="">
           <div>
             <h3>RMG poweranalyzer</h3>
             <p>Intelligent industrial power management and maintenance tool</p>
