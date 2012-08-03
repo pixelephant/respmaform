@@ -34,6 +34,10 @@
         <img src="img/portfolio/de/de-04.jpg" alt="">
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
       </figure>
+      <figure>
+        <img src="img/portfolio/de/de-05.jpg" alt="">
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+      </figure>
     </section>
 
     <div id="cta" class="">

@@ -26,14 +26,6 @@
         <img src="img/portfolio/ss/ss-02.jpg" alt="">
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
       </figure>
-      <figure>
-        <img src="img/portfolio/ss/ss-03.jpg" alt="">
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-      </figure>
-      <figure>
-        <img src="img/portfolio/ss/ss-04.jpg" alt="">
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-      </figure>
     </section>
 
     <div id="cta" class="">
