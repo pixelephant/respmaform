@@ -30,6 +30,11 @@
         <h3>Present</h3>
         <p>Eye-popping renders and illustrations with style. This is how we communicate our designs.</p>
     </div>
+    <div class="step">
+        <img src="img/enjoy.png" alt="">
+        <h3>Enjoy</h3>
+        <p>The product is finished.</p>
+    </div>
     </section>
 
     <div id="cta" class="">
