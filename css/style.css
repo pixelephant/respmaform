@@ -1173,7 +1173,18 @@ footer a,#portfolio-nav a{
   }
 
   @media (min-width: 980px){
-     
+  #project .text{
+    width: 40%;
+    float:left;
+    text-align: center;
+    margin: 80px auto;
+    position: relative;
+    max-width: none; 
+    padding:0 5%;
+  }
+  #project .text:nth-child(odd){
+    margin-right: 0;
+  }
   }
 
    /* NOT mobile */
