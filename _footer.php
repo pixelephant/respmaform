@@ -1,4 +1,3 @@
-<script src="js/retina.js"></script>
 <footer>
    <p>Contact us at <a href="mailto:info@maform.hu">info@maform.hu</a> or at <a href="tel:+36307472416">+36-30-747-2416</a></p>
     <ul>
@@ -22,6 +21,7 @@
 
   <!-- scripts concatenated and minified via build script -->
   <!--[if lt IE 9]>  <script src="js/ie.js"></script> <![endif]-->
+  <!--<script src="js/retina.js"></script>-->
   <script src="js/main.js"></script>
   <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
   <!-- end scripts -->

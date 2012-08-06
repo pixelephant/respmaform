@@ -935,7 +935,7 @@ hgroup h2{
   color:#fff;
 }
 
-.no-touch #portfolio .element div{
+.no-touch #portfolio .element .data{
   bottom: -100%;
    -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
      -moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
@@ -944,7 +944,7 @@ hgroup h2{
           ;  /* Firefox 16+ */
 }
 
-.no-touch #portfolio .element a:hover div,.no-touch #portfolio .element a:focus{
+.no-touch #portfolio .element a:hover .data,.no-touch #portfolio .element a:focus{
   bottom:0;
 }
 
@@ -954,7 +954,7 @@ hgroup h2{
   overflow:hidden;
 }
 
-#portfolio .element div{
+#portfolio .element .data{
   position: absolute;
   bottom:0;
   background-color: transparent;
@@ -965,6 +965,11 @@ hgroup h2{
   text-align: center;
   padding:5% 0;
 }
+
+.badge{
+  position: absolute;
+  top:3%;
+  left: 1%;
 }
 
 #portfolio .element p,#portfolio .element h3{
