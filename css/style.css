@@ -982,7 +982,7 @@ hgroup h2{
 }
 
 #portfolio .element p{
-  margin: 0;
+  margin: 0 auto;
 }
 
 #portfolio .element h3{
@@ -1031,6 +1031,7 @@ hgroup h2{
   text-align: center;
   font-family: 'oscb';
   margin: 0;
+  text-transform: uppercase;
 }
 
 .next{
