@@ -1,0 +1,93 @@
+#logout{
+  position: absolute;
+  top:10px;
+  right:5px;
+}
+
+#logout a{
+  -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
+  -moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
+  -o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
+  transition: all 0.3s ease-in-out;  /* Firefox 16+ */ 
+  color:#000;
+  opacity: 0.5;
+  text-decoration: none;
+  padding:15px 10px 15px 10px;
+}
+
+.no-touch #logout a:hover,#logout a:focus,#logout a.active{
+  opacity: 1;
+}
+
+header{
+  border-bottom: 1px solid #aaa;
+}
+
+footer{
+  padding-top: 0;
+}
+
+#welcome{
+  width: 90%;
+  padding: 0 5%;
+  text-align: center;
+}
+
+#welcome h1{
+  margin-bottom: 0;
+  font-family: 'oscb';
+  text-transform: uppercase;
+}
+
+#welcome p{
+  margin-top: 10px;
+}
+
+#welcome a{
+  color: #000;
+}
+
+#nav{
+  margin: 50px auto;
+  width: 90%;
+  padding: 0 5%;
+  overflow: hidden;
+}
+
+#nav a{
+  float:left;
+  width:25%;
+  padding:10%;
+  margin-right: 5%;
+  margin-bottom: 5%; 
+  background: #fff;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'oscb';
+  text-align: center;
+  font-size: 2em;
+  -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
+  -moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
+  -o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
+  transition: all 0.3s ease-in-out;  /* Firefox 16+ */
+}
+
+#nav a img{
+  
+}
+
+#nav a:nth-child(even){
+  margin-right: 0;
+}
+
+.no-touch #nav a:hover,#nav a:focus{
+  background: #ba282e;
+}
+
+
+@media (min-width: 767px){
+  #nav a{
+    padding: 2%;
+    width:41%;
+  }  
+}

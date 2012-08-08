@@ -303,7 +303,7 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 
 /* FONT RESIZE */
 
-hgroup h1{
+hgroup h1,h1{
   font-size: 2em;
 }
 
@@ -319,7 +319,7 @@ h3{
   font-size: 1.2em;
 }
 
-p,footer li a,#language{
+p,footer li a,#language,#logout{
   font-size: 1em;
 }
 
@@ -336,7 +336,7 @@ label,.formy input[type="email"],.formy input[type="text"],.formy textarea,#form
 }
 
 @media (min-width:481px) and (max-width:979px){
-  hgroup h1{
+  hgroup h1,h1{
     font-size: 2.4em;
   }
 
@@ -356,7 +356,7 @@ label,.formy input[type="email"],.formy input[type="text"],.formy textarea,#form
   font-size: 1.7em;
 }
 
-  p,footer li a,#language{
+  p,footer li a,#language,#logout{
     font-size: 1.2em;
   }
 
@@ -374,7 +374,7 @@ label,.formy input[type="email"],.formy input[type="text"],.formy textarea,#form
 }
 
 @media (min-width:980px){
-  hgroup h1{
+  hgroup h1,h1{
     font-size: 2.88em;
   }
 
@@ -394,7 +394,7 @@ label,.formy input[type="email"],.formy input[type="text"],.formy textarea,#form
   font-size: 2em;
 }
 
-  p,footer li a,#language{
+  p,footer li a,#language,#logout{
     font-size: 1.44em;
   }
 
