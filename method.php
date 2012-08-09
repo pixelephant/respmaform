@@ -62,13 +62,13 @@
     </div>
     <div class="step">
         <div data-picture data-alt="">
-          <div data-src="img/enjoy.png"></div>
-          <div data-src="img/enjoy@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
+          <div data-src="img/feedback.png"></div>
+          <div data-src="img/feedback@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
           <noscript>
-            <img src="img/enjoy.png" alt="">
+            <img src="img/feedback.png" alt="">
           </noscript>
         </div>
-        <h3>Enjoy</h3>
+        <h3>Feedback</h3>
         <p>The product is finished.</p>
     </div>
     </section>
