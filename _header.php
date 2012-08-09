@@ -50,7 +50,15 @@
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <header>
-      <a id="logo" href="/"><img src="img/logo.png" alt="Maform logó"></a>
+      <a id="logo" href="/">
+        <div data-picture data-alt="Maform logó">
+          <div data-src="img/logo.png"></div>
+          <div data-src="img/logo@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
+          <noscript>
+            <img src="img/logo.png" alt="Maform logó">
+          </noscript>
+        </div>
+      </a>
       <span id="language"><a href="#">hu</a> / <a  class="active" href="#">en</a></span>
     <nav>
       <ul>

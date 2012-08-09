@@ -15,13 +15,25 @@
     <section id="members">
       <div class="member" id="peti">
         <a href="#" class="cv">CV</a>
-        <img src="img/peti.png" alt="">
+        <div data-picture data-alt="Molnár Péter">
+          <div data-src="img/peti.png"></div>
+          <div data-src="img/peti@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
+          <noscript>
+            <img src="img/peti" alt="Molnár Péter">
+          </noscript>
+        </div>
         <h3>Péter Molnár</h3>
         <p>Péter is an analytic designer who always looks at the big picture. He wants to approach perfection in all of his works.</p>
       </div>
       <div class="member" id="geza">
         <a href="#" class="cv">CV</a>
-        <img src="img/geza.png" alt="">
+        <div data-picture data-alt="Csire Géza">
+          <div data-src="img/geza.png"></div>
+          <div data-src="img/geza@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
+          <noscript>
+            <img src="img/geza" alt="Csire Géza">
+          </noscript>
+        </div>
         <h3>Géza Csire</h3>
         <p>Géza loves transformable, moving or collapsible objects. He is always trying to extend the boundaries.</p>
     </div>

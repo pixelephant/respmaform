@@ -1086,6 +1086,10 @@ footer li a img{
   opacity: 0.8;
 }
 
+footer li a div{
+  display:inline;
+}
+
 footer a,#portfolio-nav a{
   color: #fff;
   text-decoration: none;
