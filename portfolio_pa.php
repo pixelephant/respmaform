@@ -15,7 +15,15 @@
 
     <section id="project">
       
-      <img src="img/portfolio/pa/pa-01.jpg" alt="">
+      <div class="img" data-picture data-alt="">
+        <div data-src="img/portfolio/pa/pa-01-m.jpg"></div>
+        <div data-src="img/portfolio/pa/pa-01-m@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></div>
+        <div data-src="img/portfolio/pa/pa-01.jpg" data-media="(min-width: 767px)"></div>
+        <div data-src="img/portfolio/pa/pa-01@2x.jpg" data-media="(min-width: 767px) and (min-device-pixel-ratio: 2.0)"></div>
+        <noscript>
+          <img src="img/portfolio/pa/pa-01-m.jpg"alt="">
+        </noscript>
+      </div>
       
       <div class="text">
         <h3>Design</h3>
@@ -23,15 +31,39 @@
       </div>
 
       <figure>
-        <img src="img/portfolio/pa/pa-02.jpg" alt="">
+         <div class="img" data-picture data-alt="">
+        <div data-src="img/portfolio/pa/pa-02-m.jpg"></div>
+        <div data-src="img/portfolio/pa/pa-02-m@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></div>
+        <div data-src="img/portfolio/pa/pa-02.jpg" data-media="(min-width: 767px)"></div>
+        <div data-src="img/portfolio/pa/pa-02@2x.jpg" data-media="(min-width: 767px) and (min-device-pixel-ratio: 2.0)"></div>
+        <noscript>
+          <img src="img/portfolio/pa/pa-02-m.jpg"alt="">
+        </noscript>
+      </div>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
       </figure>
       <figure>
-        <img src="img/portfolio/pa/pa-03.jpg" alt="">
+         <div class="img" data-picture data-alt="">
+        <div data-src="img/portfolio/pa/pa-03-m.jpg"></div>
+        <div data-src="img/portfolio/pa/pa-03-m@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></div>
+        <div data-src="img/portfolio/pa/pa-03.jpg" data-media="(min-width: 767px)"></div>
+        <div data-src="img/portfolio/pa/pa-03@2x.jpg" data-media="(min-width: 767px) and (min-device-pixel-ratio: 2.0)"></div>
+        <noscript>
+          <img src="img/portfolio/pa/pa-03-m.jpg"alt="">
+        </noscript>
+      </div>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
       </figure>
       <figure>
-        <img src="img/portfolio/pa/pa-04.jpg" alt="">
+         <div class="img" data-picture data-alt="">
+        <div data-src="img/portfolio/pa/pa-04-m.jpg"></div>
+        <div data-src="img/portfolio/pa/pa-04-m@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></div>
+        <div data-src="img/portfolio/pa/pa-04.jpg" data-media="(min-width: 767px)"></div>
+        <div data-src="img/portfolio/pa/pa-04@2x.jpg" data-media="(min-width: 767px) and (min-device-pixel-ratio: 2.0)"></div>
+        <noscript>
+          <img src="img/portfolio/pa/pa-04-m.jpg"alt="">
+        </noscript>
+      </div>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
       </figure>
     </section>

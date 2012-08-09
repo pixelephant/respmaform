@@ -31,7 +31,7 @@
             <div data-src="img/tumblr.png"></div>
             <div data-src="img/tumblr@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
             <noscript>
-              <img src="img/tumblr" alt="">
+              <img src="img/tumblr.png" alt="">
             </noscript>
           </div>
          Read from us on Tumblr
@@ -43,7 +43,7 @@
             <div data-src="img/vimeo.png"></div>
             <div data-src="img/vimeo@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
             <noscript>
-              <img src="img/vimeo" alt="">
+              <img src="img/vimeo.png" alt="">
             </noscript>
           </div>
           Watch us on Vimeo

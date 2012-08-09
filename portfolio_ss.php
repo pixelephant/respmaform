@@ -15,7 +15,15 @@
 
     <section id="project">
       
-      <img src="img/portfolio/ss/ss-01.jpg" alt="">
+       <div class="img" data-picture data-alt="">
+        <div data-src="img/portfolio/ss/ss-01-m.jpg"></div>
+        <div data-src="img/portfolio/ss/ss-01-m@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></div>
+        <div data-src="img/portfolio/ss/ss-01.jpg" data-media="(min-width: 767px)"></div>
+        <div data-src="img/portfolio/ss/ss-01@2x.jpg" data-media="(min-width: 767px) and (min-device-pixel-ratio: 2.0)"></div>
+        <noscript>
+          <img src="img/portfolio/ss/ss-01-m.jpg"alt="">
+        </noscript>
+      </div>
       
       <div class="text">
         <h3>Design</h3>
@@ -23,7 +31,15 @@
       </div>
 
       <figure>
-        <img src="img/portfolio/ss/ss-02.jpg" alt="">
+        <div class="img" data-picture data-alt="">
+        <div data-src="img/portfolio/ss/ss-02-m.jpg"></div>
+        <div data-src="img/portfolio/ss/ss-02-m@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></div>
+        <div data-src="img/portfolio/ss/ss-02.jpg" data-media="(min-width: 767px)"></div>
+        <div data-src="img/portfolio/ss/ss-02@2x.jpg" data-media="(min-width: 767px) and (min-device-pixel-ratio: 2.0)"></div>
+        <noscript>
+          <img src="img/portfolio/ss/ss-02-m.jpg"alt="">
+        </noscript>
+      </div>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
       </figure>
     </section>

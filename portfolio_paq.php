@@ -15,7 +15,15 @@
 
     <section id="project">
       
-      <img src="img/portfolio/paq/paq-01.jpg" alt="">
+      <div class="img" data-picture data-alt="">
+        <div data-src="img/portfolio/paq/paq-01-m.jpg"></div>
+        <div data-src="img/portfolio/paq/paq-01-m@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></div>
+        <div data-src="img/portfolio/paq/paq-01.jpg" data-media="(min-width: 767px)"></div>
+        <div data-src="img/portfolio/paq/paq-01@2x.jpg" data-media="(min-width: 767px) and (min-device-pixel-ratio: 2.0)"></div>
+        <noscript>
+          <img src="img/portfolio/paq/paq-01-m.jpg"alt="">
+        </noscript>
+      </div>
       
       <div class="text">
         <h3>Form</h3>
@@ -26,11 +34,19 @@
         <p>It's ideal for small places or as a spare bed. Available in cotton, textile leather and impregnate textile all of it in lot of color. The inner side is always cotton for a comfortable sleep. The cover is machine-washable. <a href="http://www.paqchair.com">More information and webshop.</a></p>
       </div>
       <figure>
-        <img src="img/portfolio/paq/paq-02.jpg" alt="">
+        <div class="img" data-picture data-alt="">
+        <div data-src="img/portfolio/paq/paq-02-m.jpg"></div>
+        <div data-src="img/portfolio/paq/paq-02-m@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></div>
+        <div data-src="img/portfolio/paq/paq-02.jpg" data-media="(min-width: 767px)"></div>
+        <div data-src="img/portfolio/paq/paq-02@2x.jpg" data-media="(min-width: 767px) and (min-device-pixel-ratio: 2.0)"></div>
+        <noscript>
+          <img src="img/portfolio/paq/paq-02-m.jpg"alt="">
+        </noscript>
+      </div>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
       </figure>
       <figure>
-        <div>
+        <div class="video">
           <iframe src="http://player.vimeo.com/video/28350027" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
         <p>In action</p>

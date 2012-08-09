@@ -10,7 +10,7 @@
           <div data-src="img/discuss.png"></div>
           <div data-src="img/discuss@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
           <noscript>
-            <img src="img/discuss" alt="">
+            <img src="img/discuss.png" alt="">
           </noscript>
         </div>
         <h3>Discuss</h3>
@@ -21,7 +21,7 @@
           <div data-src="img/research.png"></div>
           <div data-src="img/research@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
           <noscript>
-            <img src="img/research" alt="">
+            <img src="img/research.png" alt="">
           </noscript>
         </div>
         <h3>Research</h3>
@@ -32,7 +32,7 @@
           <div data-src="img/design.png"></div>
           <div data-src="img/design@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
           <noscript>
-            <img src="img/design" alt="">
+            <img src="img/design.png" alt="">
           </noscript>
         </div>
         <h3>Design</h3>
@@ -43,7 +43,7 @@
           <div data-src="img/implement.png"></div>
           <div data-src="img/implement@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
           <noscript>
-            <img src="img/implement" alt="">
+            <img src="img/implement.png" alt="">
           </noscript>
         </div>
         <h3>Implement</h3>
@@ -54,7 +54,7 @@
           <div data-src="img/present.png"></div>
           <div data-src="img/present@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
           <noscript>
-            <img src="img/present" alt="">
+            <img src="img/present.png" alt="">
           </noscript>
         </div>
         <h3>Present</h3>
@@ -65,7 +65,7 @@
           <div data-src="img/enjoy.png"></div>
           <div data-src="img/enjoy@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
           <noscript>
-            <img src="img/enjoy" alt="">
+            <img src="img/enjoy.png" alt="">
           </noscript>
         </div>
         <h3>Enjoy</h3>

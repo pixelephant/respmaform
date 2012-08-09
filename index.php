@@ -1,10 +1,39 @@
 <?php include("_header.php") ?>
 <div class="flexslider carousel">
       <ul class="slides">        
-        <li><img src="img/slider/slider-face.jpg" alt=""></li>
-        <li><img src="img/slider/slider-m8.jpg" alt=""></li>
-        <li><img src="img/slider/slider-pa.jpg" alt=""></li>
-        <li><img src="img/slider/slider-paq.jpg" alt=""></li>
+        <li>
+          <div class="img" data-picture data-alt="">
+            <div data-src="img/slider/slider-01.jpg"></div>
+            <div data-src="img/slider/slider-01-m@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></div>
+            <div data-src="img/slider/slider-01.jpg" data-media="(min-width: 767px)"></div>
+            <div data-src="img/slider/slider-01@2x.jpg" data-media="(min-width: 767px) and (min-device-pixel-ratio: 2.0)"></div>
+            <noscript>
+              <img src="img/slider/slider-01-m.png"alt="">
+            </noscript>
+          </div>
+        </li>
+        <li>
+          <div class="img" data-picture data-alt="">
+            <div data-src="img/slider/slider-02.jpg"></div>
+            <div data-src="img/slider/slider-02-m@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></div>
+            <div data-src="img/slider/slider-02.jpg" data-media="(min-width: 767px)"></div>
+            <div data-src="img/slider/slider-02@2x.jpg" data-media="(min-width: 767px) and (min-device-pixel-ratio: 2.0)"></div>
+            <noscript>
+              <img src="img/slider/slider-02-m.png"alt="">
+            </noscript>
+          </div>
+        </li>
+        <li>
+          <div class="img" data-picture data-alt="">
+            <div data-src="img/slider/slider-03.jpg"></div>
+            <div data-src="img/slider/slider-03-m@2x.jpg" data-media="(min-device-pixel-ratio: 2.0)"></div>
+            <div data-src="img/slider/slider-03.jpg" data-media="(min-width: 767px)"></div>
+            <div data-src="img/slider/slider-03@2x.jpg" data-media="(min-width: 767px) and (min-device-pixel-ratio: 2.0)"></div>
+            <noscript>
+              <img src="img/slider/slider-03-m.png"alt="">
+            </noscript>
+          </div>
+        </li>
       </ul>
     </div>
   <section id="content">
@@ -19,7 +48,7 @@
           <div data-src="img/peti.png"></div>
           <div data-src="img/peti@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
           <noscript>
-            <img src="img/peti" alt="Molnár Péter">
+            <img src="img/peti.png" alt="Molnár Péter">
           </noscript>
         </div>
         <h3>Péter Molnár</h3>
@@ -31,7 +60,7 @@
           <div data-src="img/geza.png"></div>
           <div data-src="img/geza@2x.png" data-media="(min-device-pixel-ratio: 2.0)"></div>
           <noscript>
-            <img src="img/geza" alt="Csire Géza">
+            <img src="img/geza.png" alt="Csire Géza">
           </noscript>
         </div>
         <h3>Géza Csire</h3>

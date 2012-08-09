@@ -899,7 +899,7 @@ hgroup h2{
   margin: 80px 0;
 }
 
-#project figure div{
+#project figure div.video{
   position: relative;
     padding-bottom: 56.25%; /* 16/9 ratio */
     padding-top: 30px; /* IE6 workaround*/
@@ -907,7 +907,7 @@ hgroup h2{
     overflow: hidden;
 }
 
-#project figure div iframe{
+#project figure div.video iframe{
   position: absolute;
     top: 0;
     left: 0;
