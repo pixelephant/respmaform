@@ -719,7 +719,7 @@ hgroup h2{
   line-height: 100px;
   font-family: 'oscb';
   text-transform: uppercase;
-  border: 10px solid #e4e4e4;
+  border: 10px solid #eee;
   -webkit-transition: all 0.3s ease-in-out;  /* Saf3.2+, Chrome */
   -moz-transition: all 0.3s ease-in-out;  /* Firefox 4-15 */
   -o-transition: all 0.3s ease-in-out;  /* Opera 10.5+ */
