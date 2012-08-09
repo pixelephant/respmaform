@@ -21,10 +21,10 @@
         <fieldset id="budget-field">
           <label for="offer-budget">Budget</label>
           <select name="offer-budget" id="budget">
-            <option value="10000&euro;">~ 10 000 &euro;</option>
-            <option value="50000&euro;">~ 50 000 &euro;</option>
-            <option value="100000&euro;">~ 100 000 &euro;</option>
-            <option value="100001&euro;">&gt; 100 000 &euro;</option>
+            <option value="10000&euro;">~ 1 000 &euro;</option>
+            <option value="50000&euro;">~ 5000 &euro;</option>
+            <option value="100000&euro;">~ 10 000 &euro;</option>
+            <option value="100001&euro;">&gt; 10 000 &euro;</option>
           </select>
         </fieldset>
         <fieldset>
